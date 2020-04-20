@@ -1,0 +1,16 @@
+{
+  "name": "camera-controls",
+  "version": "1.0.0",
+  "description": "Library of camera controls for Three.js",
+  "main": "index.js",
+  "repository": "git@github.com:raycaster-io/camera-controls.git",
+  "author": "Setsun <setsun@setsun.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "three": "^0.115.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "three": "^0.115.0"
+  }
+}
