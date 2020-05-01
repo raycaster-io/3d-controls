@@ -1,12 +1,13 @@
 {
-  "name": "camera-controls",
+  "name": "@raycaster/3d-controls",
   "version": "1.0.0",
-  "description": "Library of camera controls for Three.js",
+  "description": "Library of 3D controls for Three.js",
   "main": "dist/index.js",
-  "repository": "git@github.com:raycaster-io/camera-controls.git",
+  "repository": "git@github.com:raycaster-io/3d-controls.git",
   "author": "Setsun <setsun@setsun.io>",
   "license": "MIT",
   "scripts": {
+    "prepublish": "yarn build",
     "build": "tsc"
   },
   "devDependencies": {
