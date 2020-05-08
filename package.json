@@ -1,6 +1,6 @@
 {
   "name": "@raycaster/3d-controls",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library of 3D controls for Three.js",
   "main": "dist/index.js",
   "repository": "git@github.com:raycaster-io/3d-controls.git",
@@ -11,10 +11,10 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "three": "^0.115.0",
+    "three": "^0.116.1",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "three": "^0.115.0"
+    "three": "^0.116.1"
   }
 }
