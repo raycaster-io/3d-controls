@@ -1,6 +1,6 @@
 {
   "name": "@raycaster/3d-controls",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Library of 3D controls for Three.js",
   "files": [
     "dist/*"
@@ -10,14 +10,14 @@
   "author": "Setsun <setsun@setsun.io>",
   "license": "MIT",
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublish": "npm run build",
     "build": "tsc"
   },
   "devDependencies": {
-    "three": "^0.116.1",
-    "typescript": "^3.8.3"
+    "three": "^0.123.0",
+    "typescript": "^4.1.3"
   },
   "peerDependencies": {
-    "three": "^0.116.1"
+    "three": "^0.123.0"
   }
 }
